@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "/bvuxokYyBg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\emili\\Escritorio\\portalwebProyecto\\PortalWeb\\PortalWeb\\PortalWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emili\\.nuget\\packages\\microsoft.aspnetcore.authentication.negotiate\\8.0.8\\microsoft.aspnetcore.authentication.negotiate.8.0.8.nupkg.sha512",
+    "C:\\Users\\emili\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\8.0.8\\microsoft.aspnetcore.connections.abstractions.8.0.8.nupkg.sha512",
+    "C:\\Users\\emili\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\emili\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "C:\\Users\\emili\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\emili\\.nuget\\packages\\microsoft.extensions.features\\8.0.8\\microsoft.extensions.features.8.0.8.nupkg.sha512",
+    "C:\\Users\\emili\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\emili\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\emili\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\emili\\.nuget\\packages\\system.directoryservices.protocols\\8.0.0\\system.directoryservices.protocols.8.0.0.nupkg.sha512",
+    "C:\\Users\\emili\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

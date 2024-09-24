@@ -1,0 +1,234 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b477bf9e-c3e8-4fcd-8da8-61eef82fa3a1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Servicios Transporte</ID>
+  <Name>Servicios Transporte</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3187" scrolltop="-3376" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9504" y="10139" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ServiciosTransporte" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3090" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000120c00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_ServiciosTransporte" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3187</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3376</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="904590ad-3f44-4e42-bd16-2b5f2e3d5411">
+    <DataSourceViewID>Transpo DB</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="8f0c8117-b011-4950-8618-3302c05ff53b">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <DimensionPermissions>
+    <DimensionPermission dwd:design-time-name="e79fe81f-7a10-484f-a199-755296194e46">
+      <ID>DimensionPermission</ID>
+      <Name>DimensionPermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 2</RoleID>
+      <ReadDefinition>Allowed</ReadDefinition>
+      <Read>Allowed</Read>
+    </DimensionPermission>
+  </DimensionPermissions>
+  <Attributes>
+    <Attribute dwd:design-time-name="326caee4-e275-4b05-8cd9-a11101f8b21b">
+      <ID>Servicio ID</ID>
+      <Name>Servicio ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="73b9b959-906f-47bd-b30c-7ced09b0b490">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1b827418-e3cf-43ac-b49c-5eb65e88dffc">
+            <TableID>dbo_ServiciosTransporte</TableID>
+            <ColumnID>ServicioID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8616cc91-39f3-4bd1-8640-1aa06a81cd09">
+          <AttributeID>Ruta ID</AttributeID>
+          <Name>Ruta ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="76660e9f-3a1a-43af-ae49-ddcd678f00c6">
+          <AttributeID>Cliente ID</AttributeID>
+          <Name>Cliente ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="94a8f677-e979-4af6-b43b-a66ffb5c6445">
+          <AttributeID>Vehiculo ID</AttributeID>
+          <Name>Vehiculo ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="397995b2-64bb-467d-a77e-77600dd4eac8">
+          <AttributeID>Fecha Servicio</AttributeID>
+          <Name>Fecha Servicio</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="958b65b3-f073-43b1-af65-0d361d272ae2">
+          <AttributeID>Costo</AttributeID>
+          <Name>Costo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="02cc9a1c-6493-4723-b85f-a3ad81dba6fd">
+          <AttributeID>Observaciones</AttributeID>
+          <Name>Observaciones</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ba32c918-951f-4f0e-8b15-b52d04b29692">
+      <ID>Ruta ID</ID>
+      <Name>Ruta ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="41940c2d-4d6d-493c-9c84-c2abbc250e3a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c650d684-ed77-4f12-9df4-ed591ac9dc81">
+            <TableID>dbo_ServiciosTransporte</TableID>
+            <ColumnID>RutaID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0686e59b-3422-444b-b7cf-160352df9cab">
+      <ID>Cliente ID</ID>
+      <Name>Cliente ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="70f8f3d1-89a5-4ce8-b3a3-6de2dec76ff2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1eb8832b-eba3-4332-a191-1c28dfec490f">
+            <TableID>dbo_ServiciosTransporte</TableID>
+            <ColumnID>ClienteID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fa28daa1-dc82-4c64-aee4-ccd504b8c1d9">
+      <ID>Vehiculo ID</ID>
+      <Name>Vehiculo ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c4cb8ef2-c1bb-4f0a-b9d4-38d0d0335ebe">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0d905999-74bc-4ea5-ad97-b7af1be60c32">
+            <TableID>dbo_ServiciosTransporte</TableID>
+            <ColumnID>VehiculoID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e91099a2-1580-463f-9914-e874a7793378">
+      <ID>Fecha Servicio</ID>
+      <Name>Fecha Servicio</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="20cc859a-5f57-4f0d-bac5-f7f4d7b0ea8d">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="67327c63-11d7-4add-a069-849dabbbee2e">
+            <TableID>dbo_ServiciosTransporte</TableID>
+            <ColumnID>FechaServicio</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d3550c51-6a0d-42e4-90e7-d5333838c82c">
+      <ID>Costo</ID>
+      <Name>Costo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8e815bab-a716-48df-8850-8d2a8315b863">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ccaee0cc-2da3-402c-bd86-2633e61d1b97">
+            <TableID>dbo_ServiciosTransporte</TableID>
+            <ColumnID>Costo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a998ad38-bd57-4de2-b9b9-b795f2199ace">
+      <ID>Observaciones</ID>
+      <Name>Observaciones</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d05d9a8a-175a-4c3d-8ca5-5e961ecfa361">
+          <DataType>WChar</DataType>
+          <DataSize>500</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6f475bdb-1f90-4e97-8741-93f4a7a5a4d4">
+            <TableID>dbo_ServiciosTransporte</TableID>
+            <ColumnID>Observaciones</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

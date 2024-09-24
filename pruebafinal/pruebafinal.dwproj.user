@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Transpo DB</Id>
+            <Name>Transpo DB</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8Hg4z72aI0KKA/+B3V2yOAAAAAAWAAAAVAByAGEAbgBzAHAAbwAgAEQAQgAAABBmAAAAAQAAIAAAAOuBacdMYK2GzDhFnHPs++1DI1c7++O1qaTLjSIakg9sAAAAAA6AAAAAAgAAIAAAAAhkI4FxtPYryeLrnsSPUBgvwOfXy5aVxI5/mIAvJzpCIAAAALtr6nCoxHfwnx2rXAHjmmcDv8Y6JXGTmNtxsddDGlTTQAAAANjp6n1myJ6AaZhl+mSgRkwai1N2cEHD5UTBhwgb3fIewZFerQg9iNt4j7TWbz1BKVrMDC28yetwY1fjTJnvWHk=</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Transpo DB</Id>
+            <Name>Transpo DB</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8Hg4z72aI0KKA/+B3V2yOAAAAAAWAAAAVAByAGEAbgBzAHAAbwAgAEQAQgAAABBmAAAAAQAAIAAAAORXzCnO0ZEgyi8gOBMtqEhYW2RK4X8+QU4arnz5Vh6UAAAAAA6AAAAAAgAAIAAAAFHNA9X8/GhiuzUEXFkV+SxWNlPD3aZABfCUBbD0YasWMAAAAH7bUkOvpLB4YyM+KI3KTwEAtKgOSiHqH3deYswQ6W7lJeLW1gnIMwl5eEDMlEgU3kAAAAAgHLVMs7R7TrtlpcBh70Yl5xO+nwfZdhlUQYyjLoD74ByfjHhrUf31HOlZPEg7STKANfVuhdnN0wmNryTjYudV</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>pruebafinal</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>
